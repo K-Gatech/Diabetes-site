@@ -13,10 +13,10 @@ function App() {
       <header className="App-header">
         <h1>A1C Blood Tests</h1>
         <div className="graph-controls">
+          <button onClick={() => setActiveView('table')}>Show Table</button>
           <button onClick={() => setActiveView('January')}>January</button>
           <button onClick={() => setActiveView('May')}>May</button>
-          <button onClick={() => setActiveView('Comparison')}>Comparison</button>
-          <button onClick={() => setActiveView('table')}>Show Table</button>
+          <button onClick={() => setActiveView('Comparison')}>Comparison</button>          
         </div>
         {activeView === 'January' && <JanuaryGraph />}
         {activeView === 'May' && <MayGraph />}
