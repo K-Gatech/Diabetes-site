@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Diabetes-site/static/css/main.501dd6e6.css",
-    "main.js": "/Diabetes-site/static/js/main.5b568da4.js",
+    "main.css": "/Diabetes-site/static/css/main.b61d29f2.css",
+    "main.js": "/Diabetes-site/static/js/main.0584027f.js",
     "static/js/453.7c0ef94f.chunk.js": "/Diabetes-site/static/js/453.7c0ef94f.chunk.js",
     "index.html": "/Diabetes-site/index.html",
-    "main.501dd6e6.css.map": "/Diabetes-site/static/css/main.501dd6e6.css.map",
-    "main.5b568da4.js.map": "/Diabetes-site/static/js/main.5b568da4.js.map",
+    "main.b61d29f2.css.map": "/Diabetes-site/static/css/main.b61d29f2.css.map",
+    "main.0584027f.js.map": "/Diabetes-site/static/js/main.0584027f.js.map",
     "453.7c0ef94f.chunk.js.map": "/Diabetes-site/static/js/453.7c0ef94f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.501dd6e6.css",
-    "static/js/main.5b568da4.js"
+    "static/css/main.b61d29f2.css",
+    "static/js/main.0584027f.js"
   ]
 }
