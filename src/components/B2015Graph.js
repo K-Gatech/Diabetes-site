@@ -6,7 +6,7 @@ import patientsData from './PatientsData';
 // Register the chart.js
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend);
 
-const MayGraph = () => {
+const B2015Graph = () => {
 
   // Create labels based on patient IDs (1-5). Stop labels at 5 but includes all patients
   const patientLabels = patientsData.map((patient, index) => `Patient ${index + 1}`).slice(0,5);
@@ -54,7 +54,7 @@ const MayGraph = () => {
       },
       title: {
         display: true,
-        text: 'A1C Levels for May by Gender',
+        text: 'A1C Levels for 2015 by Gender',
       },
     },
     scales: {
@@ -77,4 +77,4 @@ const MayGraph = () => {
   return <Line options={options} data={data} />;
 };
 
-export default MayGraph;
+export default B2015Graph;
