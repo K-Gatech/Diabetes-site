@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
-import A2014Graph from './components/A2014Graph';
-import B2015Graph from './components/B2015Graph';
+import JanGraph from './components/JanGraph';
+import MayGraph from './components/MayGraph';
 import ComparisonGraph from './components/ComparisonGraph';
 import PatientDataTable from './components/PatientDataTable';
 
@@ -13,7 +13,7 @@ function App() {
     setActiveView(view);
   };
 
-  const years = [2014, 2015, 2016, 2017, 2018, 2019, 2020];
+  const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
   return (
     <div className="App">
@@ -26,15 +26,15 @@ function App() {
           
           {/* Dropdown for year selection */}
           <select className="dropdown" onChange={(e) => setActiveView(e.target.value)}>
-            {years.map(year => (
+            {months.map(year => (
               <option key={year} value={year}>{year}</option>
             ))}
           </select>
         </div>
 
         {/* Conditional rendering based on activeView */}
-        {activeView === '2014' && <A2014Graph />}
-        {activeView === '2015' && <B2015Graph />}
+        {activeView === 'January' && <JanGraph />}
+        {activeView === 'May' && <MayGraph />}
         {activeView === 'Comparison' && <ComparisonGraph />}
         {activeView === 'table' && <PatientDataTable />}
         {/* Add additional rendering for other years based on the activeView */}

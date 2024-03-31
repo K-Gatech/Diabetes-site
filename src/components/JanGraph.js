@@ -1,21 +1,21 @@
 import React from 'react';
 import { Line } from 'react-chartjs-2';
 import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend } from 'chart.js';
-import patientsData from './PatientsData'; 
+import patientsData from './PatientsData';
 
 // Register the chart.js
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend);
 
-const B2015Graph = () => {
+const JanGraph = () => {
 
   // Create labels based on patient IDs (1-5). Stop labels at 5 but includes all patients
   const patientLabels = patientsData.map((patient, index) => `Patient ${index + 1}`).slice(0,5);
 
-  // Segregate A1C levels by gender
+  // Seperate A1C levels by gender
   const a1cLevelsByGender = patientsData.reduce((acc, patient) => {
     const genderKey = patient.gender.toLowerCase();
     acc[genderKey] = acc[genderKey] || [];
-    acc[genderKey].push(patient.a1cMay);
+    acc[genderKey].push(patient.a1cJanuary);
     return acc;
   }, {});
 
@@ -54,7 +54,7 @@ const B2015Graph = () => {
       },
       title: {
         display: true,
-        text: 'A1C Levels for 2015 by Gender',
+        text: 'A1C Levels for January by Gender',
       },
     },
     scales: {
@@ -77,4 +77,4 @@ const B2015Graph = () => {
   return <Line options={options} data={data} />;
 };
 
-export default B2015Graph;
+export default JanGraph;
