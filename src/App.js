@@ -8,11 +8,12 @@ import PatientDataTable from './components/PatientDataTable';
 function App() {
   const [activeView, setActiveView] = useState('table'); // shows main table on startup
 
-  // This handler changes the active view based on what the user selects
+  
   const handleViewChange = (view) => {
     setActiveView(view);
   };
-
+  
+  // months used are only Jan and May  
   const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
   return (
@@ -20,24 +21,23 @@ function App() {
       <header className="App-header">
         <h1>A1C Blood Tests</h1>
         <div className="graph-controls">
-          {/* Existing buttons for table and comparison */}
+          {/* Buttons */}
           <button onClick={() => handleViewChange('table')}>Show Table</button>
           <button onClick={() => handleViewChange('Comparison')}>Comparison</button>
           
-          {/* Dropdown for year selection */}
+          {/* Dropdown for month selection */}
           <select className="dropdown" onChange={(e) => setActiveView(e.target.value)}>
-            {months.map(year => (
-              <option key={year} value={year}>{year}</option>
+            {months.map(months => (
+              <option key={months} months={months}>{months}</option>
             ))}
           </select>
         </div>
 
-        {/* Conditional rendering based on activeView */}
+        {/* rendering based on activeView */}
         {activeView === 'January' && <JanGraph />}
         {activeView === 'May' && <MayGraph />}
         {activeView === 'Comparison' && <ComparisonGraph />}
-        {activeView === 'table' && <PatientDataTable />}
-        {/* Add additional rendering for other years based on the activeView */}
+        {activeView === 'table' && <PatientDataTable />}        
       </header>
     </div>
   );

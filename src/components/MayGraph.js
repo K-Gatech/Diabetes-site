@@ -8,7 +8,7 @@ ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, T
 
 const MayGraph = () => {
 
-  // Create labels based on patient IDs (1-5). Stop labels at 5 but includes all patients
+  // Creates labels based on patient IDs (1-5). Stop labels at 5 but includes all patients
   const patientLabels = patientsData.map((patient, index) => `Patient ${index + 1}`).slice(0,5);
 
   // Segregate A1C levels by gender
