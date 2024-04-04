@@ -14,7 +14,7 @@ function App() {
   };
   
   // months used are only Jan and May  
-  const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+  const months = ["Months","January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
   return (
     <div className="App">

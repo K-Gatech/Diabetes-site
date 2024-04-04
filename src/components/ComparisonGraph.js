@@ -1,7 +1,7 @@
 import React from 'react';
 import { Bar } from 'react-chartjs-2';
 import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend } from 'chart.js';
-import patientsData from './PatientsData';
+import jsonData from '../data.json';
 
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
 
@@ -22,10 +22,10 @@ const ComparisonGraph = () => {
   };
 
   // Count for each gender and month
-  patientsData.forEach(patient => {
+  jsonData.forEach(patient => {
     const genderKey = patient.gender.toLowerCase();
-    const janStatus = classifyA1c(patient.a1cJanuary);
-    const mayStatus = classifyA1c(patient.a1cMay);
+    const janStatus = classifyA1c(patient.a1cResults[0]?.a1c);
+    const mayStatus = classifyA1c(patient.a1cResults[1]?.a1c);
     
     if (janStatus !== 'Diabetic') statusCounts[genderKey].January++;
     if (mayStatus !== 'Diabetic') statusCounts[genderKey].May++;

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "e4b02de3-2376-05c9-2854-75890cf68deb",
+    "name": "Carisa Beier",
+    "gender": "Other",
+    "gender_id": "1O",
+    "a1cResults": [
+      {
+        "a1c": 5.5,
+        "date": "2014-07-09T05:03:59+09:00"
+      },
+      {
+        "a1c": 6.2,
+        "date": "2016-07-13T05:03:59+09:00"
+      }
+    ]
+  },
+  {
+    "id": "0a090da4-846d-2dfb-68c7-2af0d6a74c90",
+    "name": "China Alisa Dietrich",
+    "gender": "Female",
+    "gender_id": "1F",
+    "a1cResults": [
+      {
+        "a1c": 6.8,
+        "date": "2015-03-25T21:48:07+09:00"
+      },
+      {
+        "a1c": 6.9,
+        "date": "2017-03-01T21:48:07+09:00"
+      }
+    ]
+  },
+  {
+    "id": "6136f75c-ef64-2a72-a9e1-2aa0ffe84646",
+    "name": "Corina Joslyn Reichert",
+    "gender": "Female",
+    "gender_id": "2F",
+    "a1cResults": [
+      {
+        "a1c": 5.3,
+        "date": "2021-10-02T23:25:09+09:00"
+      },
+      {
+        "a1c": 6.4,
+        "date": "2023-10-07T23:25:09+09:00"
+      }
+    ]
+  },
+  {
+    "id": "50357125-7248-fde0-3266-c453dd8529ce",
+    "name": "Danyelle Yuko Hammes",
+    "gender": "Other",
+    "gender_id": "2O",
+    "a1cResults": [
+      {
+        "a1c": 6.3,
+        "date": "2015-04-16T17:13:37+09:00"
+      },
+      {
+        "a1c": 5.4,
+        "date": "2018-02-01T17:13:37+09:00"
+      }
+    ]
+  },
+  {
+    "id": "4cd795e1-ef0c-dc95-5457-bfc74ed557fa",
+    "name": "Errol Kelley Schumm",
+    "gender": "Other",
+    "gender_id": "3O",
+    "a1cResults": [
+      {
+        "a1c": 6.6,
+        "date": "2014-06-17T23:30:23+09:00"
+      },
+      {
+        "a1c": 6.2,
+        "date": "2015-06-23T23:30:23+09:00"
+      }
+    ]
+  },
+  {
+    "id": "cda9040a-d2c3-a279-8e8e-940fc6feb52a",
+    "name": "Fairy Valarie O'Connell",
+    "gender": "Female",
+    "gender_id": "3F",
+    "a1cResults": [
+      {
+        "a1c": 6.1,
+        "date": "2014-04-25T08:16:08+09:00"
+      },
+      {
+        "a1c": 6.9,
+        "date": "2016-04-29T08:16:08+09:00"
+      }
+    ]
+  },
+  {
+    "id": "bc44af02-e071-9cbd-3f7e-f378c28000a8",
+    "name": "Fred Whitney Pagac",
+    "gender": "Male",
+    "gender_id": "1M",
+    "a1cResults": [
+      {
+        "a1c": 6.8,
+        "date": "2016-05-18T02:19:59+09:00"
+      },
+      {
+        "a1c": 6.1,
+        "date": "2019-03-06T02:19:59+09:00"
+      }
+    ]
+  },
+  {
+    "id": "80f09052-4bb4-8a29-aeb8-03f28239555d",
+    "name": "Pary Zboncak",
+    "gender": "Other",
+    "gender_id": "4O",
+    "a1cResults": [
+      {
+        "a1c": 6.07,
+        "date": "2014-07-26T12:16:26+09:00"
+      },
+      {
+        "a1c": 7.1,
+        "date": "2015-08-01T12:16:26+09:00"
+      }
+    ]
+  },
+  {
+    "id": "7b447d76-452c-2427-64fe-55a3042a6ed0",
+    "name": "Laine Pennie Gerlach",
+    "gender": "Female",
+    "gender_id": "4F",
+    "a1cResults": [
+      {
+        "a1c": 6.34,
+        "date": "2014-04-15T13:39:11+09:00"
+      },
+      {
+        "a1c": 5.4,
+        "date": "2015-04-21T13:39:11+09:00"
+      }
+    ]
+  },
+  {
+    "id": "6f3303ea-b083-2eb6-4bca-c53892c6eb63",
+    "name": "Laverne Abdul Williamson",
+    "gender": "Male",
+    "gender_id": "2M",
+    "a1cResults": [
+      {
+        "a1c": 6.03,
+        "date": "2016-11-09T00:08:44+09:00"
+      },
+      {
+        "a1c": 7.13,
+        "date": "2019-08-28T00:08:44+09:00"
+      }
+    ]
+  },
+  {
+    "id": "80fc333a-e0a3-a80c-c72c-b4dd697cd71d",
+    "name": "Oren Morgan Heathcote",
+    "gender": "Male",
+    "gender_id": "3M",
+    "a1cResults": [
+      {
+        "a1c": 6.8,
+        "date": "2016-01-27T00:32:50+09:00"
+      },
+      {
+        "a1c": 6.25,
+        "date": "2017-02-01T00:32:50+09:00"
+      }
+    ]
+  },
+  {
+    "id": "bc00ae6a-f3e0-ba33-f41d-0d0b6e3d117b",
+    "name": "Paris Rolfson",
+    "gender": "Other",
+    "gender_id": "5O",
+    "a1cResults": [
+      {
+        "a1c": 6.2,
+        "date": "2014-04-15T20:45:31+09:00"
+      },
+      {
+        "a1c": 7.14,
+        "date": "2015-04-21T20:45:31+09:00"
+      }
+    ]
+  },
+  {
+    "id": "07c54127-a904-22d7-d005-a606b86c5c5d",
+    "name": "Reginald Raul Russel",
+    "gender": "Male",
+    "gender_id": "4M",
+    "a1cResults": [
+      {
+        "a1c": 6.53,
+        "date": "2016-02-22T09:26:53+09:00"
+      },
+      {
+        "a1c": 5.93,
+        "date": "2018-02-26T09:26:53+09:00"
+      }
+    ]
+  },
+  {
+    "id": "b40d47fa-b18c-3b08-19a3-1820db357cf5",
+    "name": "Sharlene Deja Schimmel",
+    "gender": "Female",
+    "gender_id": "5F",
+    "a1cResults": [
+      {
+        "a1c": 6.22,
+        "date": "2015-05-04T15:48:39+09:00"
+      },
+      {
+        "a1c": 6.93,
+        "date": "2017-05-08T15:48:39+09:00"
+      }
+    ]
+  },
+  {
+    "id": "db968279-43f5-f50f-b3a9-460533366b9c",
+    "name": "Willard Josef Ondricka",
+    "gender": "Male",
+    "gender_id": "5M",
+    "a1cResults": [
+      {
+        "a1c": 6.3,
+        "date": "2014-10-30T20:25:28+09:00"
+      },
+      {
+        "a1c": 5.5,
+        "date": "2015-11-05T20:25:28+09:00"
+      }
+    ]
+  }
+]
