@@ -9,7 +9,7 @@ ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, T
 const JanGraph = () => {
 
   // Creates labels based on patient IDs (1-5). Stop labels at 5 but includes all patients
-  const patientLabels = jsonData.map(patient => patient.name).slice(0, 5);
+  const patientLabels = jsonData.map((patient, index) => `Patient ${index + 1}`).slice(0, 5);
 
   // Seperate A1C levels by gender
   const a1cLevelsByGender = jsonData.reduce((acc, patient) => {
