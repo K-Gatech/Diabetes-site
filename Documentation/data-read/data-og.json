@@ -1,0 +1,194 @@
+[
+  {
+    "id": "6e4e680b-b312-7c30-31dc-70162e6293ac",
+    "name": "Annie Rosemarie Krajcik",
+    "gender": "Female",
+    "gender_id": "3F",
+    "a1cResults": [
+      {
+        "a1c": 6.35,
+        "date": "2014-06-01T09:58:22+09:00"
+      },
+      {
+        "a1c": 5.83,
+        "date": "2015-06-07T09:58:22+09:00"
+      }
+    ]
+  },
+  {
+    "id": "12d848c6-89a7-440d-3730-506545700659",
+    "name": "Astrid Rempel",
+    "gender": "Female",
+    "gender_id": "4F",
+    "a1cResults": [
+      {
+        "a1c": 6.01,
+        "date": "2014-05-23T06:28:00+09:00"
+      },
+      {
+        "a1c": 6.01,
+        "date": "2015-05-29T06:28:00+09:00"
+      }
+    ]
+  },
+  {
+    "id": "aabd3298-ff91-b369-d732-8a3db20e0c6d",
+    "name": "Ilda Marla Goyette",
+    "gender": "Female",
+    "gender_id": "17F",
+    "a1cResults": [
+      {
+        "a1c": 5.9,
+        "date": "2015-02-09T11:53:26+09:00"
+      },
+      {
+        "a1c": 6.04,
+        "date": "2016-02-15T11:53:26+09:00"
+      }
+    ]
+  },
+  {
+    "id": "9b084a73-11e5-24a8-d218-3d9d59d89689",
+    "name": "Imogene Petronila Gibson",
+    "gender": "Female",
+    "gender_id": "19F",
+    "a1cResults": [
+      {
+        "a1c": 6.22,
+        "date": "2020-08-04T22:00:57+09:00"
+      },
+      {
+        "a1c": 6.28,
+        "date": "2023-08-08T22:00:57+09:00"
+      }
+    ]
+  },
+  {
+    "id": "fd98f3d2-3e26-5ce3-9d85-e3f1e309a5a5",
+    "name": "Janella Ernser",
+    "gender": "Female",
+    "gender_id": "20F",
+    "a1cResults": [
+      {
+        "a1c": 6.14,
+        "date": "2024-01-04T23:51:23+09:00"
+      },
+      {
+        "a1c": 6.14,
+        "date": "2024-01-04T23:51:23+09:00"
+      }
+    ]
+  },
+  {
+    "id": "d13fb38f-2103-cfc5-0f98-dbd843adabca",
+    "name": "Kandy Bauch",
+    "gender": "Female",
+    "gender_id": "23F",
+    "a1cResults": [
+      {
+        "a1c": 6.99,
+        "date": "2014-11-22T14:30:40+09:00"
+      },
+      {
+        "a1c": 6.99,
+        "date": "2015-11-28T14:30:40+09:00"
+      }
+    ]
+  },
+  {
+    "id": "d85bc41f-114b-397e-906e-f8b540204a32",
+    "name": "Kristal Brook Stokes",
+    "gender": "Female",
+    "gender_id": "26F",
+    "a1cResults": [
+      {
+        "a1c": 6.02,
+        "date": "2015-03-07T13:51:38+09:00"
+      },
+      {
+        "a1c": 6.29,
+        "date": "2017-03-11T13:51:38+09:00"
+      }
+    ]
+  },
+  {
+    "id": "6ebba1f9-dd28-dc49-64ab-d600e45319bd",
+    "name": "Lyda Marvin",
+    "gender": "Female",
+    "gender_id": "29F",
+    "a1cResults": [
+      {
+        "a1c": 6.23,
+        "date": "2015-01-22T17:31:14+09:00"
+      },
+      {
+        "a1c": 6.33,
+        "date": "2016-01-28T17:31:14+09:00"
+      }
+    ]
+  },
+  {
+    "id": "5a67b28c-719a-3304-9042-4efc42cc0016",
+    "name": "Marcelene Yasmine Brekke",
+    "gender": "Female",
+    "gender_id": "30F",
+    "a1cResults": [
+      {
+        "a1c": 6.2,
+        "date": "2014-09-16T09:48:16+09:00"
+      },
+      {
+        "a1c": 5.95,
+        "date": "2015-09-22T09:48:16+09:00"
+      }
+    ]
+  },
+  {
+    "id": "6a508f34-d030-1d37-5531-5e200aa18a7d",
+    "name": "Mar\u00eda Eugenia Anita Sotelo",
+    "gender": "Female",
+    "gender_id": "31F",
+    "a1cResults": [
+      {
+        "a1c": 5.9,
+        "date": "2015-01-06T02:58:15+09:00"
+      },
+      {
+        "a1c": 6.26,
+        "date": "2018-01-09T02:58:15+09:00"
+      }
+    ]
+  },
+  {
+    "id": "4a6251b4-0fa0-fd64-8ebf-c0633cc8e6f9",
+    "name": "Natalie Hauck",
+    "gender": "Female",
+    "gender_id": "34F",
+    "a1cResults": [
+      {
+        "a1c": 6.36,
+        "date": "2014-10-20T12:36:32+09:00"
+      },
+      {
+        "a1c": 5.89,
+        "date": "2015-10-26T12:36:32+09:00"
+      }
+    ]
+  },
+  {
+    "id": "b838952f-4bde-062a-2f9f-dca789e620b1",
+    "name": "Shayna Regan Dach",
+    "gender": "Female",
+    "gender_id": "38F",
+    "a1cResults": [
+      {
+        "a1c": 6.11,
+        "date": "2014-12-23T13:13:42+09:00"
+      },
+      {
+        "a1c": 6.04,
+        "date": "2015-12-29T13:13:42+09:00"
+      }
+    ]
+  }
+]
