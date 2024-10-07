@@ -4,6 +4,8 @@ Test data: data.json in src folder. This data was pulled from smart health. Inst
 
 To access the website visit https://k-gatech.github.io/Diabetes-site/
 
+Video link for creation process and result - https://www.youtube.com/watch?v=wSgfqHzC4wE
+
 The purpose of the website is to pull patient data from smart health and categorize their a1c levels for physicians to review. 
 The table tabs shows all the patients
 The Comparison tab shows how many changes were considered diabetic vs non diabetic in the months of January an May
